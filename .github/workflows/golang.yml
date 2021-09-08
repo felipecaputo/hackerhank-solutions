@@ -28,7 +28,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v2
         with:
-          go-version: ‘ˆ1.16’      
+          go-version: ˆ1.16
 
       - name: Run golangci-lint
         # You may pin to the exact commit or the version.
